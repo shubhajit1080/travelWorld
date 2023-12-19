@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background: linear-gradient(90deg, rgba(232, 170, 25, 0.954)0%, rgb(240, 219, 197) 50%, rgba(232, 170, 25, 0.954) 100%);
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #e68c2c; */
+    /* background-image: url(/img/italy.png); */
+
+}
+#login-text{
+     font-size: 30px;
+     font-weight: 500;
+     color: black;
+     text-shadow: 0px 1px 1px black;
+     margin-bottom: 5px;
+}
+#login-text::first-letter{
+    color: #f78c11
+}
+form{
+    border-radius: 20px;
+    margin-top: 80px !important;
+    width: 35% !important;
+    background-color: white !important;
+    padding: 50px;
+}
+
+/* .login{
+    background-color: white;
+    color: #f78c11;
+    
+} */
+
+.login:hover{
+    background-color: #f78c11;
+    color: white;
+    border-color: #f78c11;
+}
+.register:hover{
+    background-color: #f78c11;
+    color: white;
+    border-color: #f78c11;
+}
+
+.btn-outline-primary{
+    width: 100%;   
+    border-radius: 50px;
+    border-color: #f78c11;
+    background-color: #f78c11 ;
+    color:white
+    
+}
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    }
+
+.form-label{
+        font-weight: 600 !important;
+ }
+@media only screen and (max-width: 600px) {
+    form {
+            width: 100% !important;
+        }
+}
